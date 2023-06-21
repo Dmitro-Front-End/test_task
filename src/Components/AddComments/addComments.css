@@ -1,0 +1,28 @@
+
+.add-comments-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    width: 80%;
+    max-width: 1200px;
+    
+}
+
+.add-comments-content textarea {
+    resize: none;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+
+}
+
+.add-comments-content button {
+    background-color: rgb(118, 27, 27);
+    color: white;
+    padding: 10px 15px;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+}

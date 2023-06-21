@@ -1,0 +1,75 @@
+.comments-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    gap: 30px;
+    width: 100%;
+    padding: 30px 0;
+  
+}
+.comments-content::-webkit-scrollbar {
+    width: 0;
+}
+.comment {
+    background-color: rgba(245, 245, 95, 0.823);
+    /* width: calc(100% - 40px); */
+    position: relative;
+    height: 70px;
+    padding: 20px;
+    width: calc(80% - 40px);
+    max-width: 1200px;
+}
+
+
+
+.comment button {
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    right: -10px;
+    top: -10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgb(164, 131, 65);
+}
+.comment p {
+    
+}
+
+.comment h1 {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(164, 131, 65);
+    position: absolute;
+    margin: 0;
+    font-size: 26px;
+    border-radius: 50px;
+    left: -30px;
+    top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.comment h2 {
+    width: 190px;
+    background-color: rgb(164, 131, 65);
+    height: 35px;
+    position: absolute;
+    top: -17.5px;
+    margin: 0;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+/* 
+
+*/
+/* 1 check size all the parent   */
+/* 2 know h and w block  */
+/* 3 parent box (dispaly ) */
+/* 4 check defoult style */
